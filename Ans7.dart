@@ -1,0 +1,16 @@
+void main() {
+  Map<String, double> expenses = {
+    'sun': 3000.0,
+    'mon': 3000.0,
+    'tue': 3234.0,
+    'fri': 5000.0
+  };
+  if (expenses.containsKey('fri')) {
+    print("fri exist");
+  } else {
+    expenses['fri'] = 5000.0;
+  }
+
+  print("Updated Expenses : $expenses");
+  // print(expenses);
+}
